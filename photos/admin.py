@@ -5,3 +5,6 @@ from .models import photo
 class photoAdmin(admin.ModelAdmin):
     list_display = ["title", "timestamp"]
     
+    class Meta:
+        model = photo
+    
