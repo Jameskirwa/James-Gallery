@@ -2,6 +2,7 @@ from django.conf.urls import url
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
+import os
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
