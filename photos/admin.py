@@ -7,4 +7,6 @@ class photoAdmin(admin.ModelAdmin):
     
     class Meta:
         model = photo
+        
+admin.site.register(photo, photoAdmin)        
     
