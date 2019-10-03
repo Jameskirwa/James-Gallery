@@ -7,4 +7,4 @@ def photo_list(request):
     context = {
         "photos": queryset,
     }
-    return render(request, "templates",context)
+    return render(request, "photo.html",context)
