@@ -98,5 +98,3 @@ Contact [James Kirwa](jameskirwa34@gmail.com) for further help/support
 ## License
 
 [MIT](https://github.com/Jameskirwa/MyGallery/blob/master/license)
-
-Copyright (c)2019 James Kirwa
