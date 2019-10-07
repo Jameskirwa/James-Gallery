@@ -25,7 +25,7 @@ SECRET_KEY = '79wzamwwr1za+%v$v+lz=7ze5a(zy(%b^x%ewg0x%v69gj@@kj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*", "django-galleryby.herokuapp.com", "localhost"]
 
 
 # Application definition
