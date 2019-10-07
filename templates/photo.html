@@ -68,7 +68,7 @@
     {% for photo in photos %}
     {% if photo.image %}
     <h1>{{ photo.title }}</h1>
-    <img src='{{ photo.image.url }}'class= style='width:100%;' border="0" alt="Null"/>
+    <img src='{{ photo.image.url }}'class= 'img-responsive' />
     {% endif %}
     {% endfor %}
 
