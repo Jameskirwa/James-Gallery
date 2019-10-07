@@ -66,6 +66,7 @@
 
 <main role="main" class="container">
     {% for photo in photos %}
+    {% load static %}
     {% if photo.image %}
     <h1>{{ photo.title }}</h1>
     <img src='{{ photo.image.url }}'class= 'img-responsive' />
